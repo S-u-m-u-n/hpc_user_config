@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/apps:$PATH"
-export TERM=xterm256 # this line solves kitty-related terminal problems (e.g not being able to open htop)
+export TERM=xterm-256color # this line solves kitty-related terminal problems (e.g not being able to open htop)
 
 autoload -U compinit
 compinit
