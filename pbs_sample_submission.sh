@@ -1,5 +1,6 @@
 #!/bin/bash -l
 #PBS -N Jobname
+# Important!! The following mem=48gb requests 48gb per node!
 #PBS -l select=4:ncpus=24:mem=48gb
 #PBS -l walltime=04:00:00
 #PBS -P 50000003
