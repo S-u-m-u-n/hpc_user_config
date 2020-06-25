@@ -6,7 +6,13 @@ Used in the following competitions:
 
 Feel free to copy and adapt them to your own needs. 
 
----
+# Cheat sheets
+
+## System monitoring
+
+`htop` CPU & RAM usage
+
+`watch -n 0.5 nvidia-smi` htop for GPUs
 
 ## PBS cheat sheet
 ### Job scheduling
@@ -57,3 +63,15 @@ Feel free to copy and adapt them to your own needs.
 `spack find --loaded` Find loaded packages
 
 `spack install <pkg>%gcc@9.2.0 +openmp` Install package, compile it with gcc 9.2.0 and enable the openmp feature
+
+# ToDo
+
+* Add Slurm sample submission script
+
+* Add vim/neovim configuration
+
+* write bash script that automatically sets up this configuration
+
+* Add aliases for slurm / other useful things
+
+* Add references in the README for easier navigation
