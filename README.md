@@ -12,7 +12,7 @@ Feel free to copy and adapt them to your own needs.
 
 `htop` CPU & RAM usage
 
-`watch -n 0.5 nvidia-smi` htop for GPUs
+`watch -n 0.5 nvidia-smi` htop for GPUs, alternative: `nvidia-smi --loop=1`
 
 ## PBS cheat sheet
 ### Job scheduling
