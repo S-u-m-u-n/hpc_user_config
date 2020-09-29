@@ -9,7 +9,8 @@ compinit
 alias vi='nvim'
 alias tmux='tmux -2'
 
-source /cm/shared/spack-new/share/spack/setup-env.sh
+# source /cm/shared/spack-new/share/spack/setup-env.sh
+source $HOME/spack/share/spack/setup-env.sh
 spack load neovim
 spack load tmux
 module load slurm
