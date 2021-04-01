@@ -1,8 +1,9 @@
 # HPC user config
-My dotfiles for HPC clusters. They make navigating around in a terminal via ssh more comfortable.
+My dotfiles for HPC clusters. They make navigating around in a terminal via ssh a lot more comfortable.
 Used in the following competitions:
 * [SC19 Student Cluster Competition](https://sc19.supercomputing.org/program/studentssc/student-cluster-competition/)
 * [ISC20 Student Cluster Competition](https://www.isc-hpc.com/student-cluster-competition.html)
+* [SC20 Student Cluster Competition](https://sc20.supercomputing.org/program/studentssc/student-cluster-competition/)
 
 Feel free to copy and adapt them to your own needs. 
 
@@ -64,14 +65,14 @@ Feel free to copy and adapt them to your own needs.
 
 `spack install <pkg>%gcc@9.2.0 +openmp` Install package, compile it with gcc 9.2.0 and enable the openmp feature
 
+To update spack: `git pull` in the spack directory
+
 # ToDo
 
-* Add Slurm sample submission script
-
-* Add vim/neovim configuration
-
-* write bash script that automatically sets up this configuration
-
-* Add aliases for slurm / other useful things
-
-* Add references in the README for easier navigation
+- [x] ~~Add Slurm sample submission script~~
+- [ ] Add vim/neovim configuration
+- [ ] Write bash script that automatically sets up this configuration
+- [ ] Add aliases for slurm / other useful things
+- [ ] Add references in the README for easier navigation
+- [ ] Add explanation for tmux shortcuts
+- [ ] Explain .zshrc, add p10k & oh-my-zsh configurations
